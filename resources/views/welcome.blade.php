@@ -30,6 +30,7 @@ Edad: <input name="edad" type="text" checked="checked" />
  <p><input type="submit" value="enviar" /></p>
 </form>
 
+<!-- lanzar excepcion -->
 <form action="adiospost2" method="post">
 <h2>FORMULARIO POST-2</h2>
 <input type="hidden" name="_token" value=" {{ csrf_token () }}"><br />

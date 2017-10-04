@@ -19,6 +19,4 @@ Route::get('/adios', function () {
     return view('adios');
 });
 
-Route::post('/adiospost2', function () {
-    return view('adiospost2');
-});
+Route::post('/adiospost2', 'datosController@adiospost');
